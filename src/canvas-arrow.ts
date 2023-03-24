@@ -11,7 +11,6 @@ function drawArrow(ctx: CanvasRenderingContext2D) {
     ctx.stroke();
 }
 
-
 export function setupCanvas(canvas: HTMLCanvasElement) {
     const ctx = canvas.getContext('2d');
     const width = canvas.width = window.innerWidth;
